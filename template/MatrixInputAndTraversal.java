@@ -15,11 +15,13 @@ public class MatrixInputAndTraversal {
         int n = scanner.nextInt();
 
         int[][] matrix = new int[m][n];
+        // Matrix input
         System.out.println("Enter the elements of matrix: ");
         for (int i = 0; i < m; i++)
             for (int j = 0; j < n; j++)
                 matrix[i][j] = scanner.nextInt();
 
+        // Matrix output
         System.out.println("The elements of matrix: ");
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++)
